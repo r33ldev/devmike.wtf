@@ -18,8 +18,7 @@ export default function MyApp(props: AppProps) {
         <Provider store={store}>
           <Head>
             <title>
-              Michael E Adebisi - Software Engineer, Lover of Everything
-              Exceptional
+              Super Devmike - writing softwares like a g-o-d!
             </title>
             <link href='/favicon.ico' rel='icon' />
             <meta
