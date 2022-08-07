@@ -17,13 +17,15 @@ export default function MyApp(props: AppProps) {
       <ApolloProvider client={client}>
         <Provider store={store}>
           <Head>
-            <title>
-              Super Devmike - writing softwares like a g-o-d!
-            </title>
+            <title>Super Devmike - writing softwares like a g-o-d!</title>
             <link href='/favicon.ico' rel='icon' />
             <meta
               content='minimum-scale=1, initial-scale=1, width=device-width'
               name='viewport'
+            />
+            <meta
+              name='description'
+              content='Super Devmike - a full stack web and application developer from Abuja, Nigeria.'
             />
           </Head>
           <ThemeProvider theme={theme}>
